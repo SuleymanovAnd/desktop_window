@@ -3,4 +3,4 @@ project(desktop_window)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(desktop_window main.cpp overflow.cpp overflow.h)
+add_subdirectory (src)
